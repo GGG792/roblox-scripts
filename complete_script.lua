@@ -1,6 +1,6 @@
 game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "成功注入！"; Text ="正在加载脚本..."; Duration = 4; })
 
-local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/FUEx0f3G"))()
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))()
 local LBLG = Instance.new("ScreenGui", getParent)
 local LBL = Instance.new("TextLabel", getParent)
 local player = game.Players.LocalPlayer
